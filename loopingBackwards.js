@@ -17,3 +17,12 @@ const Kamsy = [
 for (let i = Kamsy.length - 1; i >= 0; i--) {
     console.log(Kamsy[i])
 }
+
+//A loop inside a loop - 
+for (let exercise = 1; exercise < 4; exercise++) {
+    console.log(`----STARTING EXERCISE ${exercise}`);
+
+    for (let rep = 1; rep < 6; rep++) {
+        console.log(`----lifting weight  repetition ${rep}`)
+    }
+}
